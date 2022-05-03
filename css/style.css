@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-color: rgb(240, 242, 245);
+}
+
+.nav-link {
+    color: rgba(3, 3, 19, 0.829);
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.nav-link:hover {
+    background-color: rgb(249, 247, 252);
+    color: white;
+    transition: 1s;
+    width: 110%;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/aus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+
+}
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: rgb(14, 32, 87);
+}
+
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width: 40%;
+
+}
+
+#about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: reiative;
+}
+
+.mine img {
+    height: 600px;
+    width: 100%;
+    opacity: rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7);
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 138px;
+    outline: none;
+    color: white;
+    background-color: rgb(170, 36, 36);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover {
+    background-color: rgb(78, 7, 7);
+    transition: .5s;
+}
+
+.main .bt2:hover {
+    background-color: rgb(78, 7, 7);
+    transition: .5s;
+    color: white;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 138px;
+    outline: none;
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(228, 212, 210);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4 {
+    animation: load4 4s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progress p {
+    color: white;
+    padding: 12px;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 98%;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes load4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 72%;
+    }
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: rgba(17, 147, 233, 0.925);
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 145px;
+    border: 2px solid blue;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.card {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+card p {
+    color: #000;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.card:hover .circle {
+    background-color: black;
+    color: white;
+    transition: .2s;
+}
+
+/*portfolio*/
+.control ul li {
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/IMG_20210701_163712.jpg);
+    background-size: cover;
+}
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+}
+
+.first h4 {
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.first h4::after {
+    content: '';
+    background: #66c83d;
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.first p {
+    font-size: 14px;
+}
+
+.second {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+.second h4 {
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.second h4::after {
+    content: '';
+    background: #66c83d;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.second li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.second li a {
+    text-decoration: none;
+}
+
+
+.second a,
+.bottom-social a {
+    color: rgba(206, 206, 206);
+    text-emphasis: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.second a:hover,
+.bottom-social a:hover {
+    color: #fff;
+    transition: 0.2s;
+    text-shadow: 1p 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+.third h4 {
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+.third h4::after {
+    content: '';
+    background: #66c83d;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.third li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.third a {
+    text-decoration: none;
+    color: rgba(206, 206, 206);
+    letter-spacing: 3px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.third:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.2px;
+}
+
+.bottom-social {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: rgba(206, 206, 206);
+    text-align: center;
+
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgba(206, 206, 206);
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+    .first h4::after {
+        left: 40%;
+    }
+
+    .third {
+        text-align: center;
+    }
+
+    .third h4::after {
+        left: 40% !important;
+    }
+}
+
+.item {
+    position: relative;
+}
+
+.item span {
+    left: 50%;
+    position: relative;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.item:hover span {
+    opacity: 1;
+    transition: 1s;
+}
+
+.mine img {
+    border-radius: 5px;
+}
+
+#preloder {
+    height: 100%;
+    width: 100%;
+    background: #000 url(images/1amw.gif) no-repeat center;
+    position: fixed;
+    z-index: 100;
+}
